@@ -1,63 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-    <meta charset="utf-8" />
-    <title>Kids Read for Fun | Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment portal for Ken Tolman in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>WDD 230: Assignment Portal</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div>
-      <header>
-        <h1><a href="#">Kids Read for Fun</a></h1>
+    <header>
+      <img id="myphoto" src="images/ken.jpg" alt="Ken Tolman's Photo" title="Ken Tolman">
+      <h1>Ken Tolman</h1>
+    </header>
 
-        <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Current Reviews</a></li>
-            <li><a href="#">Archive</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <article>
-          <div class="post-date">January 6, 2016</div>
-          <section class="post-content">
-            <h2><a href="#">Septimus Heap Book One: Magyk</a></h2>
-            <figure>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/en/5/5f/Magkycover2.jpg"
-                alt="Book cover for Septimus Heap 1"
-              />
-            </figure>
-            <p>
-              If you enjoy stories about seventh sons of seventh sons and magyk
-              this is the book for you. <a href="#">Read More...</a>
-            </p>
-          </section>
-        </article>
-
-        <article>
-          <div class="post-date">Dec 20, 2015</div>
-          <section class="post-content">
-            <h2><a href="#">Magnus Chase Book One: Sword of Summer</a></h2>
-            <figure>
-              <img
-                src="https://books.google.com/books/content/images/frontcover/xWuyBAAAQBAJ?fife=w300"
-                alt="Book cover for Magnus Chase 1"
-              />
-            </figure>
-            <p>
-              The anticipated new novel by Rick Riordan. After Greek mythology
-              (Percy Jackson), Greek/Roman (Heroes of Olympus), and Egyptian
-              (Kane Chronicles), Rick decides to try his hand with Norse
-              Mythology, and the end result is good.
-              <a href="#">Read More...</a>
-            </p>
-          </section>
-        </article>
-      </main>
-    </div>
+    <main>
+      <section id="assignments">
+        <h2>WDD 230: Assignment Portal</h2>
+        <ul>
+          <li> W02 Activity:   <a href="lesson2/design-principles.html"><span class="link">Design Principles Document</span></a></li>
+          <li> W03 Assignment: <a href="lesson3/"><span class="link">Website Planning Document</span></a></li>
+          <li> W04 Assignment: <a href="chamber/"><span class="link">Chamber Home Page Build</span></a></li>
+          <li> W05 Activity:   <a href="lesson4/bom.html"><span class="link">DOM Manipulation</span></a></li>
+          <li> W05 Assignment: <a href="chamber/"><span class="link">Chamber Home Page Build Continued</span></a></li>
+          <li> W06 Assignment: <a href="chamber/"><span class="link">Responsive Design</span></a></li>
+          <li> W07 Activity:   <a href="lesson7/lazyload.html"><span class="link">Progressive Loading of Images</span></a></li>
+          <li> W07 Assignment: <a href="chamber/discover.html"><span class="link">The Discover Page - Image Section</span></a></li>
+          <li> W08 Activity:   <a href="lesson8/tablebuild.html"><span class="link">Table Build</span></a></li>
+          <li> W08 Assignment: <a href="chamber/join.html"><span class="link">Join Page</span></a></li>
+          <li> W09 Activity:   <a href="lesson9/prophets.html"><span class="link">Working with JSON data and the Fetch API</span></a></li>
+          <li> W09 Assignment: <a href="chamber/directory.html"><span class="link">The Business Directory Page</span></a></li>
+          <li> W10 Assignment: <a href="#"><span class="link">Using the Weather API</span></a></li>
+          <li> W11 Submission: <a href="chamber/#"><span class="link">The Chamber of Commerce Site</span></a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <small>&copy; <span id="currentYear"></span> | Ken Tolman | Utah | <a href="https://www.byui.edu/online" target="_blank" >BYU Online Learning</a>
+        <br>Last Updated: <span id="updated"></span></small>
+    </footer>
+    <script src="js/currentDates.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> WebFont.load({google: {families: ["Frank Ruhl Libre"],},});</script>
   </body>
 </html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
